@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+.env
+!.env.example
+venv/
+env/
+.venv/
+.pytest_cache/
+
+# FastAPI / SQLite / Data
+backend/data/*.db*
+backend/data/models/
+backend/data/*.wav
+backend/uploads/
+!backend/uploads/.gitkeep
+backend/generated/
+!backend/generated/.gitkeep
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+!frontend/.env.example
+
+# Misc
+.DS_Store
+*.log
+.idea/
+.vscode/
+*.swp
